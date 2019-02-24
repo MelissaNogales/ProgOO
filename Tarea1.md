@@ -29,7 +29,7 @@ Televisión con encapsulamiento
 ####    Definitivamente el encapsulamiento es muy útil, porque el usuario no puede cambiar el estado de            un ojeto desde la implementación, sino desde la interfaz.
 
 #### 5. Herencia.
-####    Cuando una clase es creada a partir de una existente. La herencia viene del hecho de que la                subclase tiene los atributos y métodos de la clase primaria.
+####    Cuando una clase es creada a partir de una clase existente. La herencia viene del hecho de que la          subclase tiene los atributos y métodos de la clase primaria.
 ![alt text](./img/herencia.PNG)
 ![alt text](./img/h.jpg)
 
