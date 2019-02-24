@@ -26,4 +26,4 @@ Televisión sin encapsulamiento
 Televisión con encapsulamiento
 ![alt text](./imgagen.png)
 
-####    Definitivamente el encapsulamiento es muy útil, ya que el usuario no puede cambiar el estado de            un ojeto desde la implementación, sino desde la interfaz.
+####    Definitivamente el encapsulamiento es muy útil, porque el usuario no puede cambiar el estado de            un ojeto desde la implementación, sino desde la interfaz.
