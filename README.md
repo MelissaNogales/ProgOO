@@ -2,7 +2,7 @@
 ### Unidad 1: Introducción al paradigma de la programación orientado a objetos.
 #### Conceptos:
 #### 1. Paradigma.
-####    Es la forma en como alguien resuelve una problemática, por ejemplo paradigma de programación hace          referencia a cómo un programador (o programadores), soluciona a un problema o más de un problema. 
+####    Es la forma en como alguien resuelve una problemática, por ejemplo paradigma de programación hace          referencia a como un programador (o programadores), soluciona a un problema o más de un problema. 
 ####    Hay diversos paradigmas de programación.
 
 #### 2. Abstracción
@@ -20,4 +20,4 @@
 #### 4. Encapsulamiento.
 ####    Es el proceso para proteger en una misma sección elementos de una abstracción que forman su                estructura y comportamiento, también separa la interfaz de contractual de una abstracción e                implantación.
 
-*e ![Televisión sin encapsulamiento](./img/img.png)
+*e ![Television sin encapsulamiento](./img/img.png)
