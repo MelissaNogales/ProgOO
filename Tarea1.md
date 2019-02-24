@@ -18,10 +18,12 @@
 ####     Porque la clase es una base que se usa para definir cualquier objeto.
 
 #### 4. Encapsulamiento.
-####    Es el proceso para proteger en una misma sección elementos de una abstracción que forman su                estructura y comportamiento, también separa la interfaz de contractual de una abstracción e                implantación.
+####    Sirve para evitar una posible modificación indeseada de parte de los usuarios, ya que en                   programación se utiliza para ocultar.
 
 Televisión sin encapsulamiento
 ![alt text](./img/img.png)
 
 Televisión con encapsulamiento
 ![alt text](./imgagen.png)
+
+####    Definitivamente el encapsulamiento es muy útil, ya que el usuario no puede cambiar el estado de            un ojeto desde la implementación, sino desde la interfaz.
