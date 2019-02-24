@@ -34,13 +34,25 @@ Televisión con encapsulamiento
 ![alt text](./img/h.jpg)
 
 #### UML: Lenguaje de Modelado Unificado.
-#### El lenguaje UML comenzó a gestarse en octubre de 1994, cuando Rumbaugh se unió a la compañía Rational      fundada por Booch (dos reputados investigadores en el área de metodología del software).
+#### 1. El lenguaje UML comenzó a gestarse en octubre de 1994, cuando Rumbaugh se unió a la compañía               Rational      fundada por Booch (dos reputados investigadores en el área de metodología del                software).
 #### El objetivo de ambos era unificar dos métodos que habían desarrollado: el método Booch y el OMT            (Object Modelling Tool). El primer borrador apareció en octubre de 1995. En esa misma época otro           reputado investigador, Jacobson, se unió a Rational y se incluyeron ideas suyas. Estas tres personas       son conocidas como los “tres amigos”. Además, este lenguaje se abrió a la colaboración de otras            empresas para que aportaran sus ideas. Todas estas colaboraciones condujeron a la definición de la         primera versión de UML.
 
 #### Es un lenguaje de modelado visual que se usa para especificar, visualizar, construir y documentar          artefactos de un sistema de software. Se usa para entender, diseñar, configurar, mantener y controlar      la información sobre los sistemas a construir.
 #### UML capta la información sobre la estructura estática y el comportamiento dinámico de un sistema. Un       sistema se modela como una colección de objetos discretos que interactúan para realizar un trabajo         que finalmente beneficia a un usuario externo.
 
 ####  Las herramientas pueden ofrecer generadores de código de UML para una gran variedad de lenguaje de         programación, así como construir modelos por ingeniería inversa a partir de programas existentes.
+#### TOP 5 DE HERRAMIENTAS UML:
+#### 1. MagicDraw
+#### 2. Papyrus UML
+#### 3. Modelio
+#### 4. ArgoUML
+#### 5. StarUML
 
 #### Diagramas de Clases
 #### Muestran un conjunto de clases, interfaces y colaboraciones, así como sus relaciones. Estos diagramas      son los más comunes en el modelado de sistemas orientados a objetos y cubren la vista de diseño            estática o la vista de procesos estática (sí incluyen clases activas).
+
+#### ¿Sabes de alguna empresa local que utilice este lenguaje?
+####  No
+
+#### Máquina que vende cuadernos, lápices, plumas, borradores, sacapuntas y correctores
+![alt text](./img/Captura.PNG)
