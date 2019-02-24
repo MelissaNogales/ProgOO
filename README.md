@@ -1,5 +1,23 @@
-## Tarea 1
-## Unidad 1: Introducción al paradigma de la programación orientado a objetos.
-## Conceptos:
-### 1. Paradigma.
-### 
+### Tarea 1
+### Unidad 1: Introducción al paradigma de la programación orientado a objetos.
+#### Conceptos:
+#### 1. Paradigma.
+####    Es la forma en como alguien resuelve una problemática, por ejemplo paradigma de programación hace          referencia a cómo un programador (o programadores), soluciona a un problema o más de un problema. 
+####    Hay diversos paradigmas de programación.
+
+#### 2. Abstracción
+####    En programación orientada a ojetos, abstracción es el conjunto de características específicas que          posee un objeto, y las cuales lo diferencian de otros tipos de objetos, además definen límites             conceptuales respecto a quien está haciendo alguna abstracción del objeto.
+
+####    Ejemplos de abstracción
+####    Ejemplo 1: ¿Qué características podemos abstraer de los automóviles? o ¿Qué características                semejantes tienen todos los automóviles?
+####    Características: Marca, Modelo, Número de chasis, Peso llantas o cauchos, Puertas, Ventanas...             Comportamiento: Acelerar, Frenar, Retroceder...
+
+####    Ejemplo 2: La gerencia de un taller mecánico necesita un sistema para controlar los vehículos que          ingresan a sus instalaciones. En este caso, las características esenciales de la clase Vehículo            son: marca, modelo, color, falla_detectada, nombre_propietario, dirección_propietario,                     teléfono_ropietario...
+
+#### 3. ¿Por qué decimos que la Clase es el mecanismo de abstracción de los lenguajes OO? 
+####     Porque la clase es una base que se usa para definir cualquier objeto.
+
+#### 4. Encapsulamiento.
+####    Es el proceso para proteger en una misma sección elementos de una abstracción que forman su                estructura y comportamiento, también separa la interfaz de contractual de una abstracción e                implantación.
+
+*e ![Televisión sin encapsulamiento](./img/img.png)
