@@ -22,5 +22,6 @@
 
 Televisión sin encapsulamiento
 ![alt text](./img/img.png)
+
 Televisión con encapsulamiento
 ![alt text](./img/imgagen.jpg)
