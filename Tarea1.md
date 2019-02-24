@@ -1,5 +1,5 @@
-### Tarea 1
-### Unidad 1: Introducción al paradigma de la programación orientado a objetos.
+### **Tarea 1**
+### **Unidad 1: Introducción al paradigma de la programación orientado a objetos.**
 #### Conceptos:
 #### 1. Paradigma.
 ####    Es la forma en como alguien resuelve una problemática, por ejemplo paradigma de programación hace          referencia a como un programador (o programadores), soluciona a un problema o más de un problema. 
