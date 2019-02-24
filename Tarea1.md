@@ -20,5 +20,5 @@
 #### 4. Encapsulamiento.
 ####    Es el proceso para proteger en una misma sección elementos de una abstracción que forman su                estructura y comportamiento, también separa la interfaz de contractual de una abstracción e                implantación.
 
-Televisión sin encapsulamiento:
+Televisión sin encapsulamiento
 ![alt text](./img/img.png)
