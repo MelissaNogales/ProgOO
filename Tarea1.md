@@ -24,6 +24,6 @@ Televisión sin encapsulamiento
 ![alt text](./img/img.png)
 
 Televisión con encapsulamiento
-![](./imgagen.png)
+![alt text](./imagen.png)
 
 ####    Definitivamente el encapsulamiento es muy útil, porque el usuario no puede cambiar el estado de            un ojeto desde la implementación, sino desde la interfaz.
