@@ -1,11 +1,11 @@
-### **Tarea 1**
-### **Unidad 1: Introducción al paradigma de la programación orientado a objetos.**
-#### __Conceptos:__
-#### 1. Paradigma.
+# **Tarea 1**
+## **Unidad 1: Introducción al paradigma de la programación orientado a objetos.**
+### __Conceptos:__
+### 1. Paradigma.
 ####    _Es la forma en como alguien resuelve una problemática, por ejemplo paradigma de programación hace          referencia a como un programador (o programadores), soluciona a un problema o más de un                    problema._ 
 ####    _Hay diversos paradigmas de programación._
 
-#### 2. Abstracción.
+### 2. Abstracción.
 ####    _En programación orientada a ojetos, abstracción es el conjunto de características específicas que          posee un objeto, y las cuales lo diferencian de otros tipos de objetos, además definen límites             conceptuales respecto a quien está haciendo alguna abstracción del objeto._
 
 ####    _Ejemplos de abstracción_
@@ -14,10 +14,10 @@
 
 ####    _Ejemplo 2: La gerencia de un taller mecánico necesita un sistema para controlar los vehículos que          ingresan a sus instalaciones. En este caso, las características esenciales de la clase Vehículo            son: marca, modelo, color, falla_detectada, nombre_propietario, dirección_propietario,                     teléfono_propietario..._
 
-#### 3. ¿Por qué decimos que la Clase es el mecanismo de abstracción de los lenguajes OO?
+### 3. ¿Por qué decimos que la Clase es el mecanismo de abstracción de los lenguajes OO?
 ####     _Porque la clase es una base que se usa para definir cualquier objeto._
 
-#### 4. Encapsulamiento.
+### 4. Encapsulamiento.
 ####    _Sirve para evitar una posible modificación indeseada de parte de los usuarios, ya que en                   programación se utiliza para ocultar._
 
 _Televisión sin encapsulamiento_
@@ -28,12 +28,12 @@ _Televisión con encapsulamiento_
 
 ####    _Definitivamente el encapsulamiento es muy útil, porque el usuario no puede cambiar el estado de            un ojeto desde la implementación, sino desde la interfaz._
 
-#### 5. Herencia.
+### 5. Herencia.
 ####    _Cuando una clase es creada a partir de una clase existente. La herencia viene del hecho de que la          subclase tiene los atributos y métodos de la clase primaria._
 ![alt text](./img/herencia.PNG)
 ![alt text](./img/h.jpg)
 
-#### UML: Lenguaje de Modelado Unificado.
+### UML: Lenguaje de Modelado Unificado.
 #### _1. El lenguaje UML comenzó a gestarse en octubre de 1994, cuando Rumbaugh se unió a la compañía               Rational      fundada por Booch (dos reputados investigadores en el área de metodología del                software)._
 #### _El objetivo de ambos era unificar dos métodos que habían desarrollado: el método Booch y el OMT            (Object Modelling Tool). El primer borrador apareció en octubre de 1995. En esa misma época otro           reputado investigador, Jacobson, se unió a Rational y se incluyeron ideas suyas. Estas tres personas       son conocidas como los “tres amigos”. Además, este lenguaje se abrió a la colaboración de otras            empresas para que aportaran sus ideas. Todas estas colaboraciones condujeron a la definición de la         primera versión de UML._
 
@@ -54,5 +54,5 @@ _Televisión con encapsulamiento_
 #### _¿Sabes de alguna empresa local que utilice este lenguaje?_
 ####  _No_
 
-#### Máquina que vende cuadernos, lápices, plumas, borradores, sacapuntas y correctores.
+### Máquina que vende cuadernos, lápices, plumas, borradores, sacapuntas y correctores.
 ![alt text](./img/Captura.PNG)
