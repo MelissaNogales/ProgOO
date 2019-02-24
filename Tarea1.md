@@ -42,11 +42,11 @@ Televisión con encapsulamiento
 
 ####  Las herramientas pueden ofrecer generadores de código de UML para una gran variedad de lenguaje de         programación, así como construir modelos por ingeniería inversa a partir de programas existentes.
 #### TOP 5 DE HERRAMIENTAS UML:
-#### 1. MagicDraw
-#### 2. Papyrus UML
-#### 3. Modelio
-#### 4. ArgoUML
-#### 5. StarUML
+#### ..* MagicDraw
+#### ..* Papyrus UML
+#### ..* Modelio
+#### ..* ArgoUML
+#### ..* StarUML
 
 #### Diagramas de Clases
 #### Muestran un conjunto de clases, interfaces y colaboraciones, así como sus relaciones. Estos diagramas      son los más comunes en el modelado de sistemas orientados a objetos y cubren la vista de diseño            estática o la vista de procesos estática (sí incluyen clases activas).
