@@ -21,7 +21,7 @@
 
 ### 2.3 Referencia al objeto actual.  
 ####    _La palabra clave this hace referencia a la instancia actual de la clase._ 
-'''csharp namespace Programa
+'''namespace Programa
 {
     class Paciente
     {
@@ -82,5 +82,5 @@
         }
     }
 }
-
+'''
 
