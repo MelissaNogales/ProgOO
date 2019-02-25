@@ -29,7 +29,6 @@ namespace Programa
                 Console.WriteLine(nombre);
                 Console.WriteLine("Total consulta: {0:C}", Pago.TotalConsulta(this));
             }
-
             public void Imprime(int veces)
             {
                 for (int i=0; i<=veces; i++)
@@ -55,9 +54,6 @@ namespace Programa
         static void Main(string[] args)
         {
             Paciente p =new Paciente("Patricia", 41);
-            List<Paciente> pacientes =new List<Paciente>();
-            pacientes.Add(p);
-            pacientes.Add(new Paciente("Yovanny", 22));
             p.Imprime(3);
         }
     }

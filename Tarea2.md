@@ -76,9 +76,6 @@ namespace Programa
         static void Main(string[] args)
         {
             Paciente p =new Paciente("Patricia", 41);
-            List<Paciente> pacientes =new List<Paciente>();
-            pacientes.Add(p);
-            pacientes.Add(new Paciente("Yovanny", 22));
             p.Imprime(3);
         }
     }
