@@ -7,6 +7,7 @@ namespace Programa
     {
         private string nombre;
         private int edad;
+        private int consulta=60;
         public string Nombre
         {
             get 
@@ -26,6 +27,7 @@ namespace Programa
         public void Imprime()
             {
                 Console.WriteLine(nombre);
+                Console.WriteLine("Total consulta: {0:C}", Pago.TotalConsulta(this));
             }
 
             public void Imprime(int veces)
@@ -33,6 +35,20 @@ namespace Programa
                 for (int i=0; i<=veces; i++)
                 Imprime();
             }
+            public int Consulta
+            {
+                get
+                {
+                    return consulta;
+                }
+            }
+    }
+    class Pago
+    {
+        public static int TotalConsulta(Paciente P)
+        {
+            return 10+P.Consulta;
+        }
     }
     class Program
     {
