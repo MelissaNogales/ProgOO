@@ -16,11 +16,11 @@ class Dado
       Console.WriteLine("{0}", color);
    }
 
-   public static bool operator ==(Dado a, int valor )
+   /* public static bool operator ==(Dado a, int valor )
    {
       return a.valor == valor;
 
-   }
+   } */
 }
 
 class Program
@@ -34,7 +34,7 @@ class Program
       dados.Add(new Dado(3, "azul"));
 
       
-        if (dados[0] > dados[1])
+        //if (dados[0] > dados[1])
       
       {
          Dado temp = dados[0];
@@ -42,7 +42,7 @@ class Program
          dados[1] = temp;
 
       }
-      if (dados[0] < dados[1])
+      //if (dados[0] < dados[1])
       
       {
          Dado temp = dados[0];
@@ -51,12 +51,12 @@ class Program
 
       }
 
-      int valor = 1;
+      /* int valor = 1;
       foreach (var d in dados)
       {
          if (d == 1)
             d.imprime();
-      }
+      }/* */
       
       Console.ReadKey();
    } 
