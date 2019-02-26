@@ -1,0 +1,7 @@
+C:\Users\melis\Documents\POO\Fracc\Fracc\bin\Debug\Fracc.exe.config
+C:\Users\melis\Documents\POO\Fracc\Fracc\bin\Debug\Fracc.exe
+C:\Users\melis\Documents\POO\Fracc\Fracc\bin\Debug\Fracc.pdb
+C:\Users\melis\Documents\POO\Fracc\Fracc\obj\Debug\Fracc.csprojAssemblyReference.cache
+C:\Users\melis\Documents\POO\Fracc\Fracc\obj\Debug\Fracc.csproj.CoreCompileInputs.cache
+C:\Users\melis\Documents\POO\Fracc\Fracc\obj\Debug\Fracc.exe
+C:\Users\melis\Documents\POO\Fracc\Fracc\obj\Debug\Fracc.pdb
