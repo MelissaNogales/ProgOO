@@ -31,7 +31,7 @@ namespace Programa
             }
             public void Imprime(int veces)
             {
-                for (int i=0; i<=veces; i++)
+                for (int i=0; i<veces; i++)
                 Imprime();
             }
             public int Consulta
