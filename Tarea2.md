@@ -248,30 +248,38 @@ class Program
       dados.Add(new Dado(1, "verde"));
       dados.Add(new Dado(2, "rojo"));
       dados.Add(new Dado(3, "azul"));
-
-      
-        if (dados[0] > dados[1])|| if (dados[0]>dados[2])
-      
-      {
-         Console.WriteLine("El mejor es: ", dados[0];
-
-      }
-      if (dados[0] < dados[1])
-      
-      {
-         Dado temp = dados[0];
-         dados[0] = dados[1];
-         dados[1] = temp;
-
-      }
-
-      int valor = 1;
-      foreach (var d in dados)
-      {
-         if (d == 1)
-            d.imprime();
-      }
-      
+            if (dados[0] == dados[1] && dados[0] == dados[2])
+            {
+                Console.WriteLine("Los dados son iguales");
+            }
+            else if (dados[0] > dados[1] && dados[0] > dados[2])
+            {
+                Console.WriteLine("El mayor es el dado con valor " + dados[0].ToString();
+            }
+            else if (dados[1] > dados[0] && dados[1] > dados[2])
+            {
+                Console.WriteLine("El mayor es el dado con valor " + dados[1].ToString();
+            }
+            else if (dados[2] > dados[0] && dados[2] > dados[1])
+            {
+                Console.WriteLine("El mayor es el dado con valor " + dados[2].ToString();
+            }
+            else if (dados[0]==dados[1] && dados[0]>dados[2])
+            {
+                Console.WriteLine("El mayor es el dado con valor " + dados[0].ToString();
+            }
+            else if (dados[0] == dados[1] && dados[0] < dados[2])
+            {
+                Console.WriteLine("El mayor es el dado con valor " + dados[2].ToString();
+            }
+            else if (dados[2] == dados[1] && dados[0] > dados[2])
+            {
+                Console.WriteLine("El mayor es el dado con valor " + dados[0].ToString();
+            }
+            else if (dados[2] == dados[1] && dados[0] > dados[2])
+            {
+                Console.WriteLine("El mayor es el dado con valor " + dados[0].ToString();
+            }
       Console.ReadKey();
    } 
 }
