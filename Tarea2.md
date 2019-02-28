@@ -81,6 +81,89 @@ namespace Programa
     }
 }
 ```
+Programa haciendo un poco de lo que se pide en el 2.7
+```csharp
+using System;
+using System.Collections.Generic;
+
+namespace Programa
+{
+    class Paciente
+    {
+        private string nombre;
+        private int edad;
+        private int consulta=60;
+        public string Nombre
+        {
+            get 
+                {
+                    return nombre;
+                }
+            set 
+                {
+                    nombre=value;
+                }
+        }
+        public Paciente(string nombre, int e)
+        {
+            this.nombre=nombre;
+            edad=e;
+        }
+        public void Imprime()
+            {
+                Console.WriteLine(nombre);
+                Console.WriteLine("Total consulta: {0:C}", Pago.TotalConsulta(this));
+            }
+            public void Imprime(int veces)
+            {
+                for (int i=0; i<veces; i++)
+                Imprime();
+            }
+            public static bool operator == (Paciente x, string Nombre)
+            {
+                return (x.Nombre==Nombre;
+            }
+            public static bool operator !=(Paciente x, Paciente y)
+            {
+                return (x.nombre.CompareTo(y.nombre)>0);
+            }
+            public int Consulta
+            {
+                get
+                {
+                    return consulta;
+                }
+            }
+    }
+    class Pago
+    {
+        public static int TotalConsulta(Paciente P)
+        {
+            return 10+P.Consulta;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List <Paciente> pacientes = new List <Paciente>();
+            pacientes.Add(new Paciente("Patricia", 41));
+            pacientes.Add(new Paciente("Yovanny", 22));
+            if(pacientes[0]>pacientes[1])
+            {
+                Paciente temp =pacientes[0];
+                pacientes[0]=pacientes[1];
+                pacientes[1]=temp;
+            }
+            foreach(var p in pacientes)
+            {
+                p.Imprime();
+            }
+            p.Imprime(3);
+        }
+    }
+}
+```
 ### 2.4 Métodos: declaración, mensajes, paso de parámetros, retorno de valores.
 #### Parámetros de métodos.
 #### _Los parámetros declarados para un método sin in, ref o out se pasan al método llamado por valor. Ese       valor se puede modificar en el método, pero el cambio se perderá cuando se devuelva el control al          procedimiento que ha hecho la llamada._
