@@ -233,6 +233,10 @@ class Dado
       return a.valor == valor;
 
    }
+   public static bool operator !=(Dado a, Dado b, Dado c)
+   {
+      return (a.valor.CompareTo(b.valor.CompareTo(c.valor)>0;
+   }
 }
 
 class Program
@@ -246,12 +250,10 @@ class Program
       dados.Add(new Dado(3, "azul"));
 
       
-        if (dados[0] > dados[1])
+        if (dados[0] > dados[1])|| if (dados[0]>dados[2])
       
       {
-         Dado temp = dados[0];
-         dados[0] = dados[1];
-         dados[1] = temp;
+         Console.WriteLine("El mejor es: ", dados[0];
 
       }
       if (dados[0] < dados[1])
