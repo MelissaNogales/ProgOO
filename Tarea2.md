@@ -223,6 +223,12 @@ class Dado
       this.valor = valor;
       this.color = co;
    }
+
+   public void imprime()
+   {
+      Console.WriteLine("{0}", color);
+   }
+
    public override bool Equals(object o)
         {
             return this.valor.Equals((o as Dado).valor);
