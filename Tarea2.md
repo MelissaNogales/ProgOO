@@ -223,54 +223,36 @@ class Dado
       this.valor = valor;
       this.color = co;
    }
-   public void imprime()
-   {
-      Console.WriteLine("{0}", color);
-   }
+   public override bool Equals(object o)
+        {
+            return this.valor.Equals((o as Dado).valor);
+        }
 
-   public static bool operator ==(Dado a, int valor )
-   {
-      return a.valor == valor;
-
-   }
+        public static bool operator==(Dado a, Dado b)
+        {
+            return a.valor==b.valor;
+        }
+        public static bool operator!=(Dado a, Dado b)
+        {
+            return a.valor!=b.valor;
+        }
 }
 
 class Program
 {
    static void Main()
    {  
-      List<Dado> dados = new List<Dado>();
-
-      dados.Add(new Dado(1, "verde"));
-      dados.Add(new Dado(2, "rojo"));
-      dados.Add(new Dado(3, "azul"));
-
-      
-        if (dados[0] > dados[1])
-      
-      {
-         Dado temp = dados[0];
-         dados[0] = dados[1];
-         dados[1] = temp;
-
-      }
-      if (dados[0] < dados[1])
-      
-      {
-         Dado temp = dados[0];
-         dados[0] = dados[1];
-         dados[1] = temp;
-
-      }
-
-      int valor = 1;
-      foreach (var d in dados)
-      {
-         if (d == 1)
-            d.imprime();
-      }
-      
-      Console.ReadKey();
+      Dado a =new Dado(1, "Verde");
+      Dado b=new Dado(1, "Verde");
+      Dado c =new Dado(1, "Verde");
+            if (a == b && a == c)
+            {
+                Console.WriteLine("Los dados son iguales");
+            }
+            else 
+            {
+                Console.WriteLine("Los dados tienen valores distintos");
+            }
    } 
 }
 ```
